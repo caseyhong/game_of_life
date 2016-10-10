@@ -1,0 +1,53 @@
+body {
+	font-family: 'Arvo', serif;
+}
+
+#title-container {
+	padding-top: 1em;
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#gol-container {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#board {
+	border-collapse: collapse;
+}
+
+#board td {
+	border: black 1px solid;
+}
+
+.alive {
+	background-color: black;
+	height: 10px;
+	width: 10px;
+}
+
+.dead {
+	background-color: white;
+	height: 10px;
+	width: 10px;
+}
+
+.dead:hover {
+	background-color: gray;
+}
+
+.options {
+	padding-top: 1em;
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
